@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main_app.iml" filepath="$PROJECT_DIR$/.idea/modules/main_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/techupskill.guru.iml" filepath="$PROJECT_DIR$/.idea/techupskill.guru.iml" />
     </modules>
   </component>

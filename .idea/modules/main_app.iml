@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="RailsFacetType" name="Ruby on Rails">
+      <configuration>
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_SUPPORT_REMOVED" VALUE="false" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_TESTS_SOURCES_PATCHED" VALUE="true" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$/../../main_app" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../main_app">
+      <sourceFolder url="file://$MODULE_DIR$/../../main_app/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../main_app/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../main_app/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../main_app/.bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../main_app/public/packs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../main_app/vendor/bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../main_app/vendor/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../main_app/log" />
+      <excludeFolder url="file://$MODULE_DIR$/../../main_app/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/../../main_app/public/system" />
+      <excludeFolder url="file://$MODULE_DIR$/../../main_app/components" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="RModuleSettingsStorage">
+    <LOAD_PATH number="0" />
+    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/../../main_app/config/locales" />
+  </component>
+  <component name="RubyModuleProperties">
+    <option name="autoCreated" value="true" />
+  </component>
+</module>

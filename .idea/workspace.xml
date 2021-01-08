@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="307b3c0b-7ce5-487e-98fe-b7e902f0b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/courses.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/courses_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/courses_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/course.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/courses/_course.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/courses/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/courses/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/courses/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/courses/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/courses/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/courses/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/courses/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20210108042707_create_courses.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/courses_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/courses.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/course_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/courses_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/actiontext.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/active_storage/blobs/_blob.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20210108053803_create_active_storage_tables.active_storage.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20210108053804_create_action_text_tables.action_text.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/action_text/rich_texts.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/landing_page.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/landing_page.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/course.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/course.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/courses/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/courses/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610051478464</updated>
       <workItem from="1610051492152" duration="1167000" />
-      <workItem from="1610055798957" duration="14157000" />
+      <workItem from="1610055798957" duration="17737000" />
     </task>
     <servers />
   </component>

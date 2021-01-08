@@ -32,7 +32,5 @@ group :test do
   gem 'webdrivers'
 end
 
-gem 'bootstrap', '~> 5.0.0.beta1'
-gem 'popper_js', '~> 1.16.0'
-gem 'jquery-rails'
+
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

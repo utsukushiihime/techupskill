@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="307b3c0b-7ce5-487e-98fe-b7e902f0b995" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/main_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/main_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/landing_page.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/landing_page.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/privacy_policy.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/privacy_policy.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mkxdV9pcjXs2CzeNtjEB8nY2ME" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -148,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610051478464</updated>
       <workItem from="1610051492152" duration="1167000" />
-      <workItem from="1610055798957" duration="1491000" />
+      <workItem from="1610055798957" duration="5103000" />
     </task>
     <servers />
   </component>

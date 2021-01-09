@@ -1,8 +1,35 @@
-<% if current_user %>
-  <%= current_user.email %>
-  <%= link_to 'Account settings', edit_user_registration_path %>
-  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
-<% else %>
-  <%= link_to 'Sign Up', new_user_registration_path %>
-  <%= link_to 'Log In', new_user_session_path  %>
-<% end %>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
+  <div class="container-xl">
+    <a class="navbar-brand" href="/">TechUpskill</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample07XL">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+        <% if current_user %>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false"><%= current_user.email %></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+            <li><a class="dropdown-item" href="#"><%= link_to 'Account', edit_user_registration_path %></a></li>
+            <li><a class="dropdown-item" href="#"><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></a></li>
+          </ul>
+        </li>
+        <% else %>
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#"><%= link_to 'Sign Up', new_user_registration_path %></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#"><%= link_to 'Log In', new_user_session_path  %></a>
+          </li>
+        <% end %>
+      </ul>
+      <form>
+        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </div>
+</nav>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-start">
   <div class="container-xl">
     <a class="navbar-brand" href="/">TechUpskill</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,22 +13,7 @@
         <li class="nav-item">
           <%= link_to 'Courses', courses_path, class: 'nav-link' %>
         </li>
-        <% if current_user %>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-bs-toggle="dropdown" aria-expanded="false"><%= current_user.email %></a>
-          <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown">
-            <li> <%= link_to 'Account', edit_user_registration_path, class: 'text-white dropdown-item' %></li>
-            <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'text-white dropdown-item' %></li>
-          </ul>
-        </li>
-        <% else %>
-          <li class="nav-item">
-            <span class="nav-link"><%= link_to 'Sign Up', new_user_registration_path %></span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link"><%= link_to 'Log In', new_user_session_path  %></span>
-          </li>
-        <% end %>
+
       </ul>
       <div class="form-inline my-2 my-lg-0">
         <%= form_tag(courses_path, method: :get) do %>
@@ -42,6 +27,24 @@
           </div>
         <% end %>
       </div>
+      <ul class="nav justify-content-end">
+        <% if current_user %>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-bs-toggle="dropdown" aria-expanded="false"><%= current_user.email %></a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown">
+              <li> <%= link_to 'Account', edit_user_registration_path, class: 'text-white dropdown-item' %></li>
+              <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'text-white dropdown-item' %></li>
+            </ul>
+          </li>
+        <% else %>
+          <li class="nav-item">
+            <span class="nav-link"><%= link_to 'Sign Up', new_user_registration_path %></span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link"><%= link_to 'Log In', new_user_session_path  %></span>
+          </li>
+        <% end %>
+        </ul>
     </div>
   </div>
 </nav>

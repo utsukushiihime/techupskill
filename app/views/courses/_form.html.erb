@@ -8,9 +8,14 @@
     <%= f.label :description %>
     <%= f.rich_text_area :description %>
     <%= f.input :short_description %>
-    <%= f.input :language, collection: [ "English", "Spanish", "German"] %>
-    <%= f.input :level, collection: [ "Beginner", "Intermediate", "Advanced"] %>
-    <%= f.input :price %>
+    <div class="row">
+      <div class="col"><%= f.input :language, collection: [ "English", "Spanish", "German"] %></div>
+      <div class="col"><%= f.input :level, collection: [ "Beginner", "Intermediate", "Advanced"] %></div>
+      <div class="col"><%= f.input :price %></div>
+    </div>
+
+
+
 
   </div>
 

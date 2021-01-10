@@ -8,9 +8,10 @@
     <%= f.label :description %>
     <%= f.rich_text_area :description %>
     <%= f.input :short_description %>
-    <%= f.input :language %>
-    <%= f.input :level %>
+    <%= f.input :language, collection: [ "English", "Spanish", "German"] %>
+    <%= f.input :level, collection: [ "Beginner", "Intermediate", "Advanced"] %>
     <%= f.input :price %>
+
   </div>
 
   <div class="form-actions">

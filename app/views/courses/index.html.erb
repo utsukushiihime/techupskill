@@ -16,9 +16,9 @@
       <tr>
         <td><%= course.title %></td>
         <td><%= course.description %></td>
-        <td style="width: 30px;"><%= link_to '', course, class: 'far fa-eye text-dark' %></td>
-        <td style="width: 30px;"><%= link_to '', edit_course_path(course), class: 'fas fa-edit text-secondary' %></td>
-        <td style="width: 30px;"><%= link_to '', course, method: :delete, data: { confirm: 'Are you sure?' }, class: 'far fa-trash-alt text-danger' %>
+        <td style="width: 30px;"><%= link_to '', course, class: 'far fa-eye text-white btn btn-sm btn-dark rounded' %></td>
+        <td style="width: 30px;"><%= link_to '', edit_course_path(course), class: 'fas fa-edit text-white btn btn-sm btn-warning rounded' %></td>
+        <td style="width: 30px;"><%= link_to '', course, method: :delete, data: { confirm: 'Are you sure?' }, class: 'far fa-trash-alt text-white btn btn-sm btn-danger rounded' %>
         </td>
       </tr>
     <% end %>
@@ -27,4 +27,4 @@
 
 <br>
 
-<%= link_to 'New Course', new_course_path %>
+<%= link_to 'New Course', new_course_path, class: 'btn btn-dark btn-sm' %>

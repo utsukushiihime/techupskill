@@ -10,5 +10,7 @@
   <%= @course.description %>
 </p>
 
-<%= link_to 'Edit', edit_course_path(@course) %> |
-<%= link_to 'Back', courses_path %>
+<%= link_to '', courses_path, class: 'fas fa-long-arrow-alt-left btn btn-dark' %>
+<%= link_to 'Edit', edit_course_path(@course), class: 'btn btn-dark btn-sm' %>
+
+

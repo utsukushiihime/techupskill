@@ -2,5 +2,8 @@
 
 <%= render 'form', course: @course %>
 
-<%= link_to 'Show', @course %> |
-<%= link_to 'Back', courses_path %>
+<div class="btn-group mt-2" role="group">
+  <%= link_to '', @course, class: 'far fa-eye btn btn-dark' %>
+  <%= link_to '', courses_path, class: 'fas fa-long-arrow-alt-left btn btn-dark' %>
+</div>
+

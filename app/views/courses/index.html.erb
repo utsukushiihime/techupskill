@@ -16,9 +16,10 @@
       <tr>
         <td><%= course.title %></td>
         <td><%= course.description %></td>
-        <td><%= link_to 'Show', course %></td>
-        <td><%= link_to 'Edit', edit_course_path(course) %></td>
-        <td><%= link_to 'Destroy', course, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td style="width: 30px;"><%= link_to '', course, class: 'far fa-eye text-dark' %></td>
+        <td style="width: 30px;"><%= link_to '', edit_course_path(course), class: 'fas fa-edit text-secondary' %></td>
+        <td style="width: 30px;"><%= link_to '', course, method: :delete, data: { confirm: 'Are you sure?' }, class: 'far fa-trash-alt text-danger' %>
+        </td>
       </tr>
     <% end %>
   </tbody>

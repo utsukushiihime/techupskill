@@ -7,6 +7,7 @@
     <tr>
       <th>Title</th>
       <th>Description</th>
+      <th>User</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,6 +17,7 @@
       <tr>
         <td><%= course.title %></td>
         <td><%= course.description %></td>
+        <td><%= course.user %></td>
         <td style="width: 30px;"><%= link_to '', course, class: 'far fa-eye text-white btn btn-sm btn-dark rounded' %></td>
         <td style="width: 30px;"><%= link_to '', edit_course_path(course), class: 'fas fa-edit text-white btn btn-sm bd-indigo-400 rounded' %></td>
         <td style="width: 30px;"><%= link_to '', course, method: :delete, data: { confirm: 'Are you sure?' }, class: 'far fa-trash-alt text-white btn btn-sm btn-danger rounded' %>

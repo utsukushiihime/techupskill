@@ -1,17 +1,34 @@
-<div class="card-columns">
-  <% @users.each do |user| %>
-    <%= render 'users/user', user: user %>
-  <% end %>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <% @users.each do |user| %>
+        <%= render 'users/user', user: user %>
+      <% end %>
+    </div>
+  </div>
 </div>
-<div class="form-inline">
-  <%= search_form_for @q do |f| %>
-    <%= f.search_field :email_cont, placeholder: 'email' %>
-    <%= f.search_field :sign_in_count_eq, placeholder: 'sign in count' %>
-    <%= f.search_field :email_or_sign_in_count_eq, placeholder: 'email or sign in count' %>
-    <%= f.submit %>
-  <% end %>
-  <div class="ml-2"></div>
-  <%= link_to 'refresh', users_path %>
+<div class="container">
+  <div class="form-inline my-4">
+    <%= search_form_for @q do |f| %>
+      <div class="row">
+        <div class="col">
+          <%= f.search_field :email_cont, placeholder: 'email', class: 'form-control' %>
+        </div>
+        <div class="col">
+          <%= f.search_field :sign_in_count_eq, placeholder: 'sign in count', class: 'form-control' %>
+        </div>
+        <div class="col">
+          <%= f.search_field :email_or_sign_in_count_eq, placeholder: 'email or sign in count', class: 'form-control' %>
+        </div>
+        <div class="col d-grid gap-2">
+          <%= f.submit class: 'btn btn-dark' %>
+        </div>
+        <div class="col-1">
+          <%= link_to '', users_path, class: 'fas fa-sync-alt' %>
+        </div>
+      </div>
+    <% end %>
+  </div>
 </div>
 <table class="table table-bordered">
   <thead>

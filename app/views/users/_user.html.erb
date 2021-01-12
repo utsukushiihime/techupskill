@@ -1,37 +1,37 @@
-<div class="card">
-  <div class="card-header">
-    <div class="fa fa-user"></div>
-    <%= user.email %>
+<div class="card my-3">
+    <div class="card-header">
+      <i class="fa fa-user"></i>
+      <%= user.email %>
+    </div>
+    <div class="card-footer">
+      Signed up
+      <%= time_ago_in_words(user.created_at) %>
+      ago
+    </div>
+    <div class="card-footer">
+      <b>
+        <%= 'sign_in_count'.humanize + ":" %>
+      </b>
+      <%= user.sign_in_count %>
+      <div class="row"></div>
+      <b>
+        <%= 'current_sign_in_at'.humanize + ":" %>
+      </b>
+      <%= user.current_sign_in_at %>
+      <div class="row"></div>
+      <b>
+        <%= 'last_sign_in_at'.humanize + ":" %>
+      </b>
+      <%= user.last_sign_in_at %>
+      <div class="row"></div>
+      <b>
+        <%= 'current_sign_in_ip'.humanize + ":" %>
+      </b>
+      <%= user.current_sign_in_ip %>
+      <div class="row"></div>
+      <b>
+        <%= 'last_sign_in_ip'.humanize + ":" %>
+      </b>
+      <%= user.last_sign_in_ip %>
+    </div>
   </div>
-  <div class="card-footer">
-    Signed up
-    <%= time_ago_in_words(user.created_at) %>
-    ago
-  </div>
-  <div class="card-footer">
-    <b>
-      <%= 'sign_in_count'.humanize + ":" %>
-    </b>
-    <%= user.sign_in_count %>
-    <div class="row"></div>
-    <b>
-      <%= 'current_sign_in_at'.humanize + ":" %>
-    </b>
-    <%= user.current_sign_in_at %>
-    <div class="row"></div>
-    <b>
-      <%= 'last_sign_in_at'.humanize + ":" %>
-    </b>
-    <%= user.last_sign_in_at %>
-    <div class="row"></div>
-    <b>
-      <%= 'current_sign_in_ip'.humanize + ":" %>
-    </b>
-    <%= user.current_sign_in_ip %>
-    <div class="row"></div>
-    <b>
-      <%= 'last_sign_in_ip'.humanize + ":" %>
-    </b>
-    <%= user.last_sign_in_ip %>
-  </div>
-</div>

@@ -3,6 +3,10 @@ a {
   color: #8540f5;
 }
 
+a:hover {
+  color: #520dc2;
+}
+
 .nav-item, .nav-link {
   text-decoration: none;
   color: #eee !important;
@@ -10,7 +14,7 @@ a {
 
 .nav-item:hover, .nav-link:hover {
   text-decoration: none;
-  color: #7952b3 !important;
+  color: #c29ffa !important;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {

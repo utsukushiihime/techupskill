@@ -19,14 +19,14 @@
 
       </ul>
       <div class="form-inline my-2 my-lg-0">
-        <%= form_tag(courses_path, method: :get) do %>
+        <%= search_form_for @ransack_courses, as: :courses_search, url: courses_path do |f| %>
           <div class="input-group">
-            <%= text_field_tag :title, params[:title], autocomplete: 'off', placeholder: "Search", class: 'form-control' %>
+            <%= f.search_field :title_cont, class: 'form-control', style: 'float: left; width: 150px; ', placeholder: 'Find a course', :autocomplete => :off %>
             <span class="input-group-append">
               <button class="btn bd-indigo-400" type="submit">
                 <span aria-hidden="true" class="fa fa-search"></span>
               </button>
-            </span>
+          </span>
           </div>
         <% end %>
       </div>

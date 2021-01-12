@@ -6,3 +6,13 @@ class ApplicationController < ActionController::Base
     @ransack_courses = Course.ransack(params[:courses_search], search_key: :courses_search) #navbar search
   end
 end
+
+
+
+
+
+
+
+
+
+

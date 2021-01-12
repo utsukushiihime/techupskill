@@ -9,19 +9,29 @@
     ago
   </div>
   <div class="card-footer">
-    <%= 'sign_in_count'.humanize %>
+    <b>
+      <%= 'sign_in_count'.humanize + ":" %>
+    </b>
     <%= user.sign_in_count %>
     <div class="row"></div>
-    <%= 'current_sign_in_at'.humanize %>
+    <b>
+      <%= 'current_sign_in_at'.humanize + ":" %>
+    </b>
     <%= user.current_sign_in_at %>
     <div class="row"></div>
-    <%= 'last_sign_in_at'.humanize %>
+    <b>
+      <%= 'last_sign_in_at'.humanize + ":" %>
+    </b>
     <%= user.last_sign_in_at %>
     <div class="row"></div>
-    <%= 'current_sign_in_ip'.humanize %>
+    <b>
+      <%= 'current_sign_in_ip'.humanize + ":" %>
+    </b>
     <%= user.current_sign_in_ip %>
     <div class="row"></div>
-    <%= 'last_sign_in_ip'.humanize %>
+    <b>
+      <%= 'last_sign_in_ip'.humanize + ":" %>
+    </b>
     <%= user.last_sign_in_ip %>
   </div>
 </div>

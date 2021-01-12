@@ -1,12 +1,14 @@
 <div class="container">
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
+  <div class="row align-items-start">
       <% @users.each do |user| %>
-        <%= render 'users/user', user: user %>
+        <div class="col">
+            <%= render 'users/user', user: user %>
+        </div>
       <% end %>
-    </div>
   </div>
 </div>
+
+
 <div class="container">
   <div class="form-inline my-4">
     <%= search_form_for @q do |f| %>

@@ -1,13 +1,12 @@
 <div class="container">
   <div class="row align-items-start">
       <% @users.each do |user| %>
-        <div class="col">
+        <div class="col-4">
             <%= render 'users/user', user: user %>
         </div>
       <% end %>
   </div>
 </div>
-
 
 <div class="container">
   <div class="form-inline my-4">
@@ -32,6 +31,7 @@
     <% end %>
   </div>
 </div>
+
 <div class="container">
   <table class="table table-bordered">
     <thead>
